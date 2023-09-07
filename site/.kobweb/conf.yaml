@@ -1,0 +1,14 @@
+site:
+  title: "Go Bus"
+
+server:
+  files:
+    dev:
+      contentRoot: "build/processedResources/js/main/public"
+      script: "build/developmentExecutable/go-bus.js"
+      api: "build/libs/go-bus.jar"
+    prod:
+      script: "build/distributions/go-bus.js"
+      siteRoot: ".kobweb/site"
+
+  port: 8080
