@@ -1,5 +1,6 @@
 site:
   title: "Go Bus"
+  routePrefix: "go-bus"
 
 server:
   files:
