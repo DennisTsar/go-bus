@@ -83,7 +83,7 @@ fun HomePage() {
         while (true) {
             val predictions = PassioApi.getPredictions(validStops)
             predictionsToDisplay = predictions.etas
-            delay(150.seconds) // TODO
+            delay(30.seconds) // TODO
         }
     }
 }
